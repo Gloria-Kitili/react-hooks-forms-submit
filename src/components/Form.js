@@ -13,7 +13,7 @@ function Form() {
     setLastName(event.target.value);
   }
 
-  function handleLastNameChange(event){
+  function handleSubmit(event){
     event.preventDefault();
     const formData = { firstName : firstName,lastName : lastName};
     const dataArray = [...submittedData , formData];
